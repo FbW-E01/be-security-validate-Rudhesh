@@ -1,0 +1,13 @@
+Post http://localhost:9090/birds
+Content-Type: application/json
+
+{
+ "species" :"Duck", 
+ "notes": "living in water and surface",
+ "estimatedAmount" : "200"  
+}
+
+####
+
+GET http://localhost:9090/birds
+Content-Type: application/json

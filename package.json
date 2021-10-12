@@ -1,0 +1,25 @@
+{
+  "name": "be-security-validate-Rudhesh",
+  "version": "1.0.0",
+  "description": "- Do not use mongo/mongoose - Create a tiny API with two endpoints:   - `GET /birds` - returns current list of bird sightings in app memory   - `POST /birds` - adds a bird sighting to app memory",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-E01/be-security-validate-Rudhesh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-E01/be-security-validate-Rudhesh/issues"
+  },
+  "homepage": "https://github.com/FbW-E01/be-security-validate-Rudhesh#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0"
+  }
+}
